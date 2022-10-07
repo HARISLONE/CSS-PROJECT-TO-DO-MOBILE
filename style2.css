@@ -107,7 +107,16 @@ input:checked + label{
     text-decoration: line-through;
 }
 @media (min-width:350px) and (max-width: 420px){
+    .container{
+        width: 100vw;
+        height: 769px;
+        background-color: #f7f7f7;
+        opacity: 1;
+        top: 0px;
+        left: 0px;
+    }
     .header{
+        width: 100vw;
         padding: 13px;
     }
     .add{

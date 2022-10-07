@@ -109,7 +109,7 @@ hr{
     height: 200vh;      
   }
     .task{
-      width: 340px;
+      width: 320px;
       height: 250px;
       position: absolute;
       left: 20px;
@@ -123,7 +123,7 @@ hr{
       border-radius: 7px;
     }
     .icon{
-      left: 310px;
+      left: 286px;
       margin-top: -5px;
     }
     .overlay{
