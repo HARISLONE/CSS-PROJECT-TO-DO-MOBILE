@@ -6,10 +6,9 @@
 }
 .container{
     background-color: #F7F7F7;
-    height: 1200px;
-    max-width: 1440px;
-    margin: auto;
-  
+    height: 100%;
+    width: 100%;
+    margin: auto; 
 }
 .header{
     background-color: white;
@@ -26,14 +25,12 @@
     max-width: 1100px;
     margin: auto;
     padding-top: 20px;
-    height: 200px;
 
 }
 .link{
+    margin-right: 90px;
     text-align:end ;
     color: #00A5EC;
-
-
 }
 .add-task{
    text-decoration: none;
@@ -62,7 +59,7 @@
     border: 1px solid #EDEDED;
 }
 .card:hover{
-    box-shadow: 6px 6px 10px 10px  lightgrey;
+    box-shadow: 0px 0px 5px 5px  lightgrey;
 }
 .card1{
     margin-right: 30px;
@@ -103,8 +100,6 @@ input[type=checkbox]{
     margin-left: 40px;
     width: 30px;
     height: 30px;
-    /* accent-color: #c2c2c2; */
-    
 }
 input[type=checkbox]:hover{
     color: #C2C2C2;
@@ -114,20 +109,29 @@ label{
     color: #424242;
 }
 
-input:checked + label{
+input[type=checkbox]:checked+label{
     color: #C2C2C2;
-    text-decoration:  line-through;
+    text-decoration: line-through;
 }
 @media (min-width:350px) and (max-width: 420px){
     .add-task{
         justify-content: center;
     }
+    .link{
+        margin-right: 10px;
+        text-align:end ;
+        color: #00A5EC;
+    }
     .header{
         padding: 13px;
     }
+    .cards{
+        flex-direction: column;
+        align-content: center;
+    }
     .card{
         margin-top: 20px;
-        margin-left: 38px;
+        margin-left: 30px;
     }
     .new{
         display: none;
