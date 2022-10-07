@@ -51,8 +51,6 @@
     display: flex;
     flex-wrap: wrap;
     margin-top: 20px;
-    justify-content: center;
-    
 }
 
 .card{
@@ -77,11 +75,10 @@
 }
 .card4{
     margin-right: 30px;
-    /* margin-top: 30px; */
+    margin-top: 30px;
 }
 .card5{
-    margin-right: 30px;
-    /* margin-top: 30px; */
+    margin-top: 30px;
 }
 .card-header{
     padding: 20px;
